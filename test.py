@@ -10,7 +10,7 @@ b = 3
 
 # print (a)
 
-#a += b  # equivalent a = a + b  a*= b a/=b 
+#a += b  # operateur equivalent a = a + b  a*= b a/=b 
 #print (a)
 
 c = a//b
