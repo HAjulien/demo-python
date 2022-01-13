@@ -1,5 +1,7 @@
+#   EXERCICE 1
 
-print("Veuillez donner 3 nombres comprit entre 0 et 40 000.")
+
+print("Veuillez donner 3 nombres  entre 0 et 40 000.")
 
 
 nombre1= int(input("a:"))
@@ -17,3 +19,30 @@ elif  nombre3 > 40000 or 0 > nombre1:
 
 else :
     print("la moyenne de vos 3 nombres est : " + str(resultat))
+
+
+
+# EXERCICE 2
+
+print("Veuillez donner un nombre entier.")
+
+nombre4= int(input("d:"))
+
+if nombre4 > 0:
+    print("le nombre est positif")
+else :
+    print("le nombre est négatif")
+
+
+
+# EXERCICE 3
+
+print("Veuillez donner un nombre entier pour voir si on peut le diviser par 3.")
+
+nombre5= int(input("e: "))
+resultat2= nombre5%3
+
+if resultat2 !=0:
+    print("le nombre n'est pas divisible par 3.")
+else :
+    print( str(nombre5) + " est divisible par 3.")
