@@ -14,4 +14,5 @@ while nMin > resultat or resultat > nMax:
     elif resultat < nMin:
         a= ((a + (a/2))/2)
         resultat= a*a
-print("le resultat est " + str(resultat))
+else:
+    print("le resultat est " + str(resultat))
