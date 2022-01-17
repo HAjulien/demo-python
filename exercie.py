@@ -28,10 +28,10 @@ print("Veuillez donner un nombre entier.")
 
 nombre4= int(input("d:"))
 
-if nombre4 > 0:
-    print("le nombre est positif")
+if nombre4 >= 0:
+    print("le nombre est positif ou nul.")
 else :
-    print("le nombre est négatif")
+    print("le nombre est négatif.")
 
 
 
@@ -39,10 +39,10 @@ else :
 
 print("Veuillez donner un nombre entier pour voir si on peut le diviser par 3.")
 
-nombre5= int(input("e: "))
-resultat2= nombre5%3
+nombre5= int(input("e:"))
+resultat2= nombre5 % 3
 
-if resultat2 !=0:
-    print("le nombre n'est pas divisible par 3.")
+if resultat2 != 0:
+    print("le nombre " +str(nombre5)+ " n'est pas divisible par 3.")
 else :
     print( str(nombre5) + " est divisible par 3.")
